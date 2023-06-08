@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="800.0" prefWidth="800.0" spacing="20.0" styleClass="window-body" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.zedo.bangumisearcher.Controller">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <children>
+      <HBox prefHeight="300.0" prefWidth="478.0">
+         <children>
+            <TabPane style="-fx-background-color: #313131;" tabClosingPolicy="UNAVAILABLE" HBox.hgrow="ALWAYS">
+              <tabs>
+                <Tab text="标题搜索">
+                     <content>
+                        <VBox prefWidth="478.0">
+                           <children>
+                              <HBox alignment="CENTER" prefWidth="474.0" spacing="10.0" style="-fx-background-color: #252526;" VBox.vgrow="ALWAYS">
+                                 <children>
+                                    <TextField fx:id="searchField" prefHeight="30.0" prefWidth="298.0" promptText="要搜索的番名" text="Yuusha, Yamemasu">
+                                       <font>
+                                          <Font name="AdobeFanHeitiStd-Bold" size="12.0" />
+                                       </font>
+                                    </TextField>
+                                    <Button mnemonicParsing="false" onAction="#search" prefHeight="30.0" prefWidth="89.0" styleClass="buttonStyle3" text="搜索番剧">
+                                       <font>
+                                          <Font name="Yu Gothic Regular" size="16.0" />
+                                       </font>
+                                    </Button>
+                                 </children>
+                                 <padding>
+                                    <Insets bottom="4.0" left="10.0" right="10.0" top="4.0" />
+                                 </padding>
+                              </HBox>
+                           </children>
+                           <padding>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </padding>
+                        </VBox>
+                     </content>
+                </Tab>
+                <Tab text="标签搜索">
+                     <content>
+                        <VBox>
+                           <children>
+                              <HBox alignment="CENTER_LEFT" spacing="10.0" style="-fx-background-color: #252526;">
+                                 <children>
+                                    <Button mnemonicParsing="false" onAction="#refreshTags" prefHeight="26.0" prefWidth="98.0" styleClass="buttonStyle3" text="获取常用">
+                                       <font>
+                                          <Font name="Yu Gothic Regular" size="14.0" />
+                                       </font>
+                                    </Button>
+                                    <TextField fx:id="searchTagField" prefHeight="30.0" prefWidth="0.0" promptText="要搜索的标签" text="外挂字幕" HBox.hgrow="ALWAYS">
+                                       <font>
+                                          <Font name="AdobeFanHeitiStd-Bold" size="12.0" />
+                                       </font>
+                                    </TextField>
+                                    <Button mnemonicParsing="false" onAction="#searchTag" prefHeight="30.0" prefWidth="89.0" styleClass="buttonStyle3" text="搜索标签">
+                                       <font>
+                                          <Font name="Yu Gothic Regular" size="16.0" />
+                                       </font>
+                                    </Button>
+                                    <Button mnemonicParsing="false" onAction="#searchTag" prefHeight="30.0" prefWidth="90.0" styleClass="buttonStyle3" text="搜索番剧">
+                                       <font>
+                                          <Font name="Yu Gothic Regular" size="16.0" />
+                                       </font>
+                                    </Button>
+                                 </children>
+                                 <padding>
+                                    <Insets bottom="4.0" left="10.0" right="10.0" top="4.0" />
+                                 </padding>
+                              </HBox>
+                              <ScrollPane fitToWidth="true" hbarPolicy="NEVER" VBox.vgrow="ALWAYS">
+                                 <content>
+                                    <VBox prefHeight="200.0" prefWidth="100.0">
+                                       <children>
+                                          <FlowPane fx:id="tagPane" hgap="10.0" prefHeight="100.0" prefWidth="472.0" style="-fx-background-color: #252526; -fx-border-color: #333333; -fx-border-width: 2 0 2 0;" vgap="10.0">
+                                             <padding>
+                                                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                             </padding>
+                                          </FlowPane>
+                                          <FlowPane fx:id="searchTagPane" hgap="10.0" prefHeight="138.0" prefWidth="472.0" vgap="10.0">
+                                             <padding>
+                                                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                             </padding>
+                                          </FlowPane>
+                                       </children>
+                                    </VBox>
+                                 </content>
+                              </ScrollPane>
+                           </children>
+                           <padding>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </padding>
+                        </VBox>
+                     </content>
+                </Tab>
+                  <Tab styleClass="www.opensubtitles.org" text="字幕搜索">
+                     <content>
+                        <VBox>
+                           <children>
+                              <HBox alignment="CENTER_LEFT" spacing="10.0" style="-fx-background-color: #252526;">
+                                 <children>
+                                    <Button mnemonicParsing="false" onAction="#refreshTags" prefHeight="26.0" prefWidth="98.0" styleClass="buttonStyle3" text="获取常用">
+                                       <font>
+                                          <Font name="Yu Gothic Regular" size="14.0" />
+                                       </font>
+                                    </Button>
+                                    <TextField fx:id="searchTagField1" prefHeight="30.0" prefWidth="0.0" promptText="要搜索的标签" text="外挂字幕" HBox.hgrow="ALWAYS">
+                                       <font>
+                                          <Font name="AdobeFanHeitiStd-Bold" size="12.0" />
+                                       </font>
+                                    </TextField>
+                                    <Button mnemonicParsing="false" onAction="#searchTag" prefHeight="30.0" prefWidth="89.0" styleClass="buttonStyle3" text="搜索标签">
+                                       <font>
+                                          <Font name="Yu Gothic Regular" size="16.0" />
+                                       </font>
+                                    </Button>
+                                    <Button mnemonicParsing="false" onAction="#searchTag" prefHeight="30.0" prefWidth="90.0" styleClass="buttonStyle3" text="搜索番剧">
+                                       <font>
+                                          <Font name="Yu Gothic Regular" size="16.0" />
+                                       </font>
+                                    </Button>
+                                 </children>
+                                 <padding>
+                                    <Insets bottom="4.0" left="10.0" right="10.0" top="4.0" />
+                                 </padding>
+                              </HBox>
+                              <ScrollPane fitToWidth="true" hbarPolicy="NEVER" VBox.vgrow="ALWAYS">
+                                 <content>
+                                    <VBox prefHeight="200.0" prefWidth="100.0">
+                                       <children>
+                                          <FlowPane fx:id="searchTagPane1" hgap="10.0" prefHeight="138.0" prefWidth="472.0" vgap="10.0">
+                                             <padding>
+                                                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                             </padding>
+                                          </FlowPane>
+                                       </children>
+                                    </VBox>
+                                 </content>
+                              </ScrollPane>
+                           </children>
+                           <padding>
+                              <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                           </padding>
+                        </VBox>
+                     </content>
+                  </Tab>
+              </tabs>
+            </TabPane>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER_RIGHT" spacing="10.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#search" prefHeight="30.0" prefWidth="89.0" styleClass="buttonStyle3" text="清除列表">
+               <font>
+                  <Font name="Yu Gothic Regular" size="16.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#search" prefHeight="30.0" prefWidth="89.0" styleClass="buttonStyle3" text="复制磁链">
+               <font>
+                  <Font name="Yu Gothic Regular" size="16.0" />
+               </font>
+            </Button>
+            <TextField fx:id="filterField" prefHeight="30.0" prefWidth="271.0" promptText="列表筛选 如(mkv 剧场 nc)" HBox.hgrow="ALWAYS">
+               <font>
+                  <Font name="AdobeArabic-Bold" size="16.0" />
+               </font>
+            </TextField>
+         </children>
+      </HBox>
+      <VBox prefHeight="200.0" prefWidth="100.0" VBox.vgrow="ALWAYS">
+         <padding>
+            <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+         </padding>
+         <children>
+            <ListView fx:id="bangumiList" prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS" />
+         </children>
+      </VBox>
+   </children>
+</VBox>

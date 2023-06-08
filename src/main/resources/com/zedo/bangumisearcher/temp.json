@@ -1,0 +1,125 @@
+{
+  "_id": "63e066fd5fa12c00078673cc",
+  "category_tag_id": "549ef207fe682f7549f1ea90",
+  "title": "[喵萌奶茶屋&LoliHouse] 万事屋斋藤，到异世界 / Benriya Saitou-san, Isekai ni Iku - 05 [WebRip 1080p HEVC-10bit AAC][简繁日内封字幕]",
+  "introduction": "<p><img src=\"https://s2.loli.net/2023/01/13/BWLFJ45bAE7ND3u.jpg\" /></p> <p><strong>万事屋斋藤，到异世界 / Benriya Saitou-san, Isekai ni Iku</strong> <br /></p> <p><strong>字幕：喵萌奶茶屋</strong></p> <p><strong>脚本 / 压制：Morlock</strong></p> <p><strong>本片与喵萌奶茶屋合作，感谢字幕组的辛勤劳动。</strong></p> <hr /> <p><strong>为了顺利地观看我们的作品，推荐大家使用以下播放器：</strong></p> <p>Windows：<a href=\"https://mpv.io/\" target=\"_blank\">mpv</a>（<a href=\"https://vcb-s.com/archives/7594\" target=\"_blank\">教程</a>）</p> <p>macOS：<a href=\"https://iina.io/\" target=\"_blank\">IINA</a></p> <p>iOS/Android：<a href=\"https://www.videolan.org/vlc/\" target=\"_blank\">VLC media player</a></p> <hr /> <p><a href=\"https://share.dmhy.org/topics/view/599634_LoliHouse_LoliHouse_5th_Anniversary_Announcement.html\">点击查看LoliHouse五周年纪念公告（附往年全部礼包）</a></p> <hr /> <p><strong>人人为我，我为人人，为了各位观众能快速下载，请使用<b> uTorrent / qBittorrent</b> 等正规 BT 软件下载，并保持开机上传，谢谢~<strong></p> ",
+  "tag_ids": [
+    "581be821ee98e9ca20730eae",
+    "549ef207fe682f7549f1ea90"
+  ],
+  "comments": 0,
+  "downloads": 90,
+  "finished": 1398,
+  "leechers": 2,
+  "seeders": 137,
+  "uploader_id": "59842d4fde238a777bf95202",
+  "team_id": "581b44bfee98e9ca20730e9a",
+  "publish_time": "2023-02-06T02:33:33.184Z",
+  "magnet": "magnet:?xt=urn:btih:f330c7cd62c6dec768ef1623a721973ae12307c4",
+  "infoHash": "f330c7cd62c6dec768ef1623a721973ae12307c4",
+  "file_id": "63e066f05fa12c0007867397",
+  "teamsync": null,
+  "content": [
+    [
+      "[Nekomoe kissaten&LoliHouse] Benriya Saitou-san, Isekai ni Iku - 05 [WebRip 1080p HEVC-10bit AAC ASSx2].mkv",
+      "433.2 MB"
+    ]
+  ],
+  "titleIndex": [
+    ",",
+    "-",
+    "0",
+    "1",
+    "5",
+    "8",
+    "a",
+    "b",
+    "c",
+    "e",
+    "h",
+    "i",
+    "k",
+    "l",
+    "n",
+    "o",
+    "p",
+    "r",
+    "s",
+    "t",
+    "u",
+    "v",
+    "w",
+    "y",
+    "万",
+    "世",
+    "事",
+    "内",
+    "到",
+    "喵",
+    "奶",
+    "字",
+    "封",
+    "屋",
+    "幕",
+    "异",
+    "斋",
+    "日",
+    "界",
+    "简",
+    "繁",
+    "茶",
+    "萌",
+    "藤",
+    "，"
+  ],
+  "size": "433.2 MB",
+  "btskey": "",
+  "uploader": {
+    "_id": "59842d4fde238a777bf95202",
+    "username": "vxzms",
+    "emailHash": "5f9c2758a5068e11d9e10fd932444141"
+  },
+  "team": {
+    "_id": "581b44bfee98e9ca20730e9a",
+    "name": "LoliHouse",
+    "tag_id": "581be821ee98e9ca20730eae",
+    "icon": "data/images/2017/04/3hmd4ghtnewb2q0omc1.jpg",
+    "tag": {
+      "_id": "581be821ee98e9ca20730eae",
+      "name": "LoliHouse",
+      "type": "team",
+      "synonyms": [
+        "LoliHouse"
+      ],
+      "locale": {},
+      "syn_lowercase": [
+        "lolihouse"
+      ],
+      "activity": 974120
+    }
+  },
+  "category_tag": {
+    "_id": "549ef207fe682f7549f1ea90",
+    "activity": 0,
+    "locale": {
+      "zh_tw": "動畫",
+      "zh_cn": "动画",
+      "ja": "アニメ",
+      "en": "Animation"
+    },
+    "name": "Donga",
+    "syn_lowercase": [
+      "動畫",
+      "动画",
+      "アニメ",
+      "animation"
+    ],
+    "synonyms": [
+      "動畫",
+      "动画",
+      "アニメ",
+      "Animation"
+    ],
+    "type": "misc"
+  }
+}

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<HBox alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="534.0" spacing="5.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@6jljb324javosis1mta.jpg" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" focusTraversable="false" prefHeight="0.0" prefWidth="0.0" text="[LoliHouse] 异世界悠闲农家 / Isekai Nonbiri Nouka - 04 [WebRip 1080p HEVC-10bit AAC][简繁内封字幕]" wrapText="true" HBox.hgrow="ALWAYS" />
+      <VBox alignment="CENTER" prefHeight="50.0" spacing="5.0">
+         <children>
+            <Label alignment="CENTER" text="3天前" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <padding>
+                  <Insets bottom="2.0" left="5.0" right="5.0" top="2.0" />
+               </padding>
+            </Label>
+            <HBox alignment="CENTER" prefHeight="23.0">
+               <children>
+                  <Label alignment="CENTER" style="-fx-background-color: #699ece; -fx-background-radius: 6 0 0 6;" text="90000" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="2.0" left="5.0" right="5.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label alignment="CENTER" style="-fx-background-color: #54cdc7;" text="90" textAlignment="CENTER">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="2.0" left="5.0" right="5.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label alignment="CENTER" style="-fx-background-color: #84cb92; -fx-background-radius: 0 6 6 0;" text="90" textAlignment="CENTER">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="2.0" left="5.0" right="5.0" top="2.0" />
+                     </padding>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+         <HBox.margin>
+            <Insets />
+         </HBox.margin>
+      </VBox>
+   </children>
+   <padding>
+      <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+   </padding>
+</HBox>
